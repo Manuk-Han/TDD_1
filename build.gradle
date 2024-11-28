@@ -38,6 +38,7 @@ dependencies {
     runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
 }
 
-tasks.named('test') {
-    useJUnitPlatform()
+dependencies {
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
+
